@@ -1,0 +1,12 @@
+* {
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body, html {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #fff;
+    margin: 0;
+}
