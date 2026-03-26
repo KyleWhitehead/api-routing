@@ -17,7 +17,7 @@ function Posts() {
     <div className="movie-detail">
       <Link to="/">← Back to search</Link>
       <h1>{movie.Title}</h1>
-      <img src={movie.Poster} alt={movie.Title} />
+      <img src={`http://img.omdbapi.com/?apikey=67c5f77b&i=${id}`} alt={movie.Title} />
       <p><strong>Year:</strong> {movie.Year}</p>
       <p><strong>Genre:</strong> {movie.Genre}</p>
       <p><strong>Plot:</strong> {movie.Plot}</p>

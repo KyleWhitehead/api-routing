@@ -1,14 +1,13 @@
-import './App.css';
-import React from 'react'
-import { Routes, Route} from "react-router-dom"
-import Home from './Pages/Home';
-import Posts from './Pages/Posts'
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Posts from "./Pages/Posts";
 
-const App = () => {
+
+function App() {
   return (
-   <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movie/:id" element={<Posts />} />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/movie/:id" element={<Posts />} />
     </Routes>
   );
 }
