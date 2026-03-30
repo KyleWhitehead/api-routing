@@ -53,11 +53,11 @@ function Home() {
   }
 
   return (
-    <div className="home-container">
-      <input
-        id="search-input"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
+      <div className="home-container">
+        <input
+          id="search-input"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
         onKeyPress={(e) => e.key === "Enter" && searchChange()}
         placeholder="Search movies..."
       />
